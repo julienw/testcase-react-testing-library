@@ -1,3 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It properly renders the component 1`] = `<div />`;
+exports[`It properly renders the component 1`] = `
+<div
+  class="playground"
+  style="width: 500px; height: 500px; white-space: pre;"
+>
+  clientX: 5
+clientY: 10
+pageX: undefined
+pageY: undefined
+x: undefined
+y: undefined
+offsetX: undefined
+offsetY: undefined
+</div>
+`;
+
+exports[`It properly renders the component 2`] = `
+<div
+  class="playground"
+  style="width: 500px; height: 500px; white-space: pre;"
+>
+  clientX: 5
+clientY: 10
+pageX: undefined
+pageY: undefined
+x: undefined
+y: undefined
+offsetX: undefined
+offsetY: undefined
+</div>
+`;
