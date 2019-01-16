@@ -1,3 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It properly renders the component 1`] = `<div />`;
+exports[`It properly shows the checked status 1`] = `
+<div>
+  <label>
+    <input
+      name="checkbox"
+      type="checkbox"
+    />
+     
+    Checkbox
+  </label>
+</div>
+`;
+
+exports[`It properly shows the checked status 2`] = `
+<div>
+  <label>
+    <input
+      name="checkbox"
+      type="checkbox"
+    />
+     
+    Checkbox
+  </label>
+</div>
+`;
